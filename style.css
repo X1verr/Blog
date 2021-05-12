@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+#NetflixFounder {
+    margin-top: 200px;
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#Welcome {
+    position: absolute;
+    height: 800px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: linear-gradient(#3632a8 0%,#9932a8 100%);
+    
+}
+#Bio {
+    padding: 50px;
+    font-size: 15px;
+    background-color: #9932a8;
+}
+
+
+.Menu {
+    list-style: none;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 130px;
+    z-index: 10;
+    
+}
+
+
+
+.Links {
+    float: left;
+    color: lightgreen;
+    padding-top: 10px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+.Links:hover {
+    background-color: black;
+    font-size: 25px;
+}
